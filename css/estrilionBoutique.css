@@ -1,0 +1,457 @@
+.boutique {
+    display: flex;
+    text-align: center;
+    vertical-align: auto;
+    width: 100%;
+    min-width: 1450px;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    top:5vh;
+}
+
+body {
+	overflow:hidden !important;
+}
+
+html {
+	min-height:800px;
+	min-width:1450px;
+	overflow:auto !important;
+}
+
+.login {
+	position:fixed;
+	height:100vh;
+	width:100vw;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: 2;
+	right : 0px !important;
+	top: 0px !important;
+	left: 0px !important;
+	bottom: 0px !important;
+}
+
+.login label {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.loginForm {
+	text-align: center;
+	width:260px;
+	height: 100px;
+	background-color:white;
+	display:block;
+	position:absolute;
+	left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    top: 40%;
+    border: solid black 5px;
+    border-radius: 10px;
+    background-color:rgba(153, 72, 72, 1);
+}
+
+.loginText {
+	margin-top: 10px;
+}
+
+.loginDivConfirm {
+	margin-top: 5px;
+}
+
+
+.loginPseudo {
+	border: solid black 3px;
+	border-radius:5px;
+	height:30px;
+	width: 180px;
+	background-color: rgba(222, 186, 186, 1);
+}
+
+.loginConfirm {
+	background-color: rgba(174, 41, 41, 1);
+	border: solid black 2px;
+	border-radius: 5px;
+	width:120px;
+	height:30px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.loginConfirm:Hover {
+	background-color: rgba(226, 80, 80, 1);
+	cursor: pointer;
+}
+
+.blockBt {
+    cursor: not-allowed;
+    pointer-events: none;
+    background-color: rgb(192, 29, 0) !important;
+    border-color: #ed9e9e !important;
+    box-shadow: 0 0 4px #ec7777 !important;
+}
+
+.grade {
+    width:19%;
+    height: 85%;
+    min-height:680px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    border: solid black;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    vertical-align: top;
+    position: relative;
+    line-height: 20px;
+    margin-top: 80px !important;
+}
+
+.contentGrade {
+    background-color: rgb(163, 159, 159);
+    color: black;
+    border-radius: 10px;
+    margin-top: 1vh;
+    width: 80%;
+    height: 31%;
+    font-size: 20px;
+    line-height: 1.2;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display: relative;
+    left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, 0); /* décalage de 50% de sa propre taille */
+    display:block;
+}
+
+.grade span {
+    position: relative;
+    display:block;
+    top: 10px !important;
+    font-weight: 1000px;
+    font-size: 26px;
+    text-decoration: underline;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+.recommande {
+    background-color: rgb(124, 24, 24);
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    display:block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 80%;
+    font-size: 18px;
+    margin-top:10px;
+}
+
+.imageBoutique {
+    position: relative;
+    min-width: 150px;
+    max-width: 75%;
+    margin: 0px auto;
+}
+
+.imageBoutique img {
+    vertical-align:top;
+    min-width: 50px;
+    max-width: 30%;
+    -webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+.imageinfo {
+    visibility: hidden;
+    position: fixed;
+    max-height: 25vh;
+    max-width: 40vw;
+}
+
+
+.infoBoutique {
+    position: absolute;
+    top: 30px;
+    margin:10px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+
+.btBoutique {
+    background-color: rgb(27, 124, 24);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: padding 0.2;
+    outline: none;
+    border-color: #a5ed9e;
+    box-shadow: 0 0 4px #77ec81;
+    width: 80%;
+    bottom: 1.3vh !important;
+    font-size: 20px;
+    position: absolute;
+    display:block;
+    left: 50%;
+    transform: translate(-50%, 0);
+    transition: 0.2s width;
+}
+
+.btBoutique:hover {
+    background-color: rgb(11, 73, 9);
+    width: 90%;
+    transition: 0.2s width;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 20;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  width: 60%;
+  max-width:600px;;
+  position: relative;
+  transition: all 1s ease-in-out;
+  background: rgba(0, 0, 0, 1);
+  height:600px;
+}
+
+.popup h2 {
+  margin-top:10px;
+}
+
+.popup .close {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: red;
+}
+.popup .close:hover {
+  color: #ff6a6a !important;
+}
+.popup .content {
+  height: 500px;;
+  overflow: auto;
+  padding:20px;
+  background:white;
+  border-radius: 10px;
+}
+
+.content iframe{
+	height: 600px !important;
+	overflow:hidden !important;
+}
+
+@media all and (max-width: 700px){
+	
+	body {
+		overflow:auto !important;
+	}
+
+	html {
+		min-height:unset;
+		min-width:unset;
+		overflow:hidden !important;
+	}
+	
+	.imageBoutique {
+	    position: relative;
+	    width: 60%;
+	    min-width: 300px;
+	    margin: 0px auto;
+	}
+	
+	.imageBoutique img {
+	    vertical-align:top;
+	    width: 20%;
+	    min-width: 100px;
+	    -webkit-user-select: none;
+		-webkit-user-drag: none;
+		-webkit-app-region: no-drag;
+		cursor: default;
+	}
+
+
+    .boutique {
+        width: 100%;
+        display: initial;
+    }
+    
+    html {
+        width: 100vw;
+        height: 100vh !important;
+        background-image: url('../pics/squel.png');
+        background-repeat:repeat-y;
+        background-position: center;
+        background-size: cover;
+        bottom: 0;
+        top : 0;
+        right: 0;
+        left: 0;
+    }
+
+    .boutique td{
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+
+    .grade {
+        position: relative;
+        width:90%;
+        background-color: rgba(0, 0, 0, 0.9);
+        border: solid black;
+        border-radius: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-top: 7%;
+        padding-bottom: 13%;
+        min-height: 620px;
+        height: 80%;
+    }
+
+    .contentGrade {
+        background-color: rgb(163, 159, 159);
+        color: black;
+        line-height: 100%;
+        border-radius: 10px;
+        margin-top: 5%;
+        padding-top: 10px;
+        width: 85%;
+        height: 25%;
+        font-size: 18px;
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    .grade span {
+        position: absolute;
+        margin-top: 20px !important;
+        font-weight: 1000px;
+        font-size: 30px !important;
+        text-decoration: underline;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+
+    tbody {
+        left: 0px;
+        width: 100%;
+        height: 50%;
+    }
+
+    tr {
+        overflow-y: scroll;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        width: 100vw;
+    }
+
+    .space {
+        padding: 50px;
+    }
+
+
+
+    .imageBoutique {
+        position: relative;
+    }
+
+    .imageBoutique img {
+        vertical-align:top;
+        min-width: 25%;
+        max-width: 25%;  
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+        -webkit-app-region: no-drag;
+        cursor: default;
+    }
+
+    .imageinfo {
+        visibility: hidden;
+        position: fixed;
+        max-height: 40%;
+        max-width: 60%;
+    }
+
+	.btBoutique {
+	    background-color: rgb(27, 124, 24);
+	    color: white;
+	    padding: 10px;
+	    border-radius: 5px;
+	    transition: padding 0.2;
+	    outline: none;
+	    border-color: #a5ed9e;
+	    box-shadow: 0 0 4px #77ec81;
+	    width: 80%;
+	    margin-top:20px;
+	    font-size: 20px;
+	    position: relative;
+	    display:block;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	    transition: 0.2s width;
+	}
+
+    .btBoutique:hover {
+        background-color: rgb(11, 73, 9);
+        width: 90%;
+        transition: 0.2s width;
+    }
+    
+    .monarque{
+    margin-bottom:50px;
+    }
+    
+    .popup {
+		width: 85% !important;;
+		margin-top:60px;
+	}
+	.popup .content {
+		height: 60vh;
+		padding:20px;
+		background:white;
+		border-radius: 10px;
+	}
+	.content iframe{
+	height: 80vh !important;
+	overflow:hidden !important;
+	}
+	
+	
+}
