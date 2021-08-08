@@ -12,7 +12,7 @@
                                 
 								<img class="imgLauncher" src="pics/launcher.png"/>
                                 <div class="button">
-                                    <a href="#">
+                                    <a href="https://www.technicpack.net/modpack/estrilion.1845177">
                                         <p>Télécharge notre launcher</p>
                                     </a>
                                 </div>
@@ -25,7 +25,7 @@
 								
 								<iframe src="https://discord.com/widget?id=838054333861593110&theme=dark" class="imgDiscord" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                                 <div class="button">
-                                    <a href="#">
+                                    <a href="https://discord.gg/YWdWwxDQkg" target="#blank">
                                         <p>Rejoins nous sur discord !</p>
                                     </a>
                                 </div>
@@ -57,7 +57,6 @@
 
                                 <div class="button">
                                     <a href="#">
-                                        <p>More</p>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -70,7 +69,6 @@
 
                                 <div class="button">
                                     <a href="#">
-                                        <p>More</p>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -83,7 +81,6 @@
 
                                 <div class="button">
                                     <a href="#">
-                                        <p>More</p>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -96,7 +93,6 @@
 
                                 <div class="button">
                                     <a href="#">
-                                        <p>More</p>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                     </a>
                                 </div>
@@ -109,7 +105,6 @@
 
                                 <div class="button">
                                     <a href="#">
-                                        <p>More</p>
                                         <i class="fa fa-chevron-right" aria-hidden="true"></i>
                                     </a>
                                 </div>

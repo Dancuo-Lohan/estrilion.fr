@@ -42,7 +42,8 @@ if ( isset( $_POST['submit'] ) ) { //Si on reçoit le formulaire
         if( (strlen($reponseListe[0]) == 86 && strlen($reponseListe[1]) == 0) || (strlen($reponseListe[0]) == 193 && strlen($reponseListe[1]) == 0)) {//On regarde les erreurs qu'on récupère
             echo "le serveur est eteint";
         } else { //Si le serveur vient juste de s'éteindre :
-            echo "Une erreur est survenue";
+            $_SESSION['erreur'] = "serveur"; //erreur serveur du coup
+            header('location: /?page=boutique'); //on redirige à la boutique
         }
     }
     echo '<h3>Form POST Method</h3>'; echo 'Your name is ' . $nameMc; exit;
