@@ -21,7 +21,7 @@
                         <div class="Lslide">
                             <div class="Lslide-content">
                                 <h2>Il ne manque plus que toi !</h2>
-                                <p>Nous laissons à nos joueurs un terrain de jeu immense (avec une surface de 400 millions de blocs !)</p>
+                                <p>Nous laissons à nos joueurs un terrain de jeu immense (avec une surface de plus de 500 millions de blocs !)</p>
 								
 								<iframe src="https://discord.com/widget?id=838054333861593110&theme=dark" class="imgDiscord" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                                 <div class="button">
@@ -30,11 +30,23 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div>    
+                        <div class="Lslide">
+                            <div class="Lslide-content">
+                                <h2>Un donjon impitoyable&#8239;!</h2>
+                                <p>Nous avons créé un donjon réservé aux meilleurs joueurs pour tester leurs aptitudes !<br>Arriveras-tu à vaincre le boss ?</p>
+								
+                                <div class="button">
+                                    <a href="?page=donjon">
+                                        <p>En savoir plus</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>  
                         <div class="Lslide">
                             <div class="Lslide-content">
                                 <h2>Supporte notre serveur !</h2>
-                                <p>Soit en votant, soit en achetant un grade sur la boutique. Tout ce qui est achetable en boutique peut être obtenu in-game !</p>
+                                <p>Soit en votant, soit en achetant un grade sur la boutique.<br>Tout ce qui est achetable en boutique peut être obtenu in-game !</p>
 
                                 <div class="button">
                                     <a href="?page=vote">
@@ -53,7 +65,7 @@
                         <div class="Lslide">
                             <div class="Lslide-content">
                                 <h2>De nouveaux monstres !</h2>
-                                <p>Une nouvelle dimension, de nouveaux minerais, des armes de folie, des baguettes magiques, des sorts surpuissant.. Que dire de plus ?<br>Un système innovant avec des quêtes vous aidant à comprendre les mods sur le serveur !</p>
+                                <p>Une nouvelle dimension, de nouveaux minerais, de nouvelles armes, des baguettes magiques, des sorts surpuissants.. Que dire de plus ?<br>Un système innovant avec des quêtes vous aidant à comprendre les mods sur le serveur !</p>
 
                                 <div class="button">
                                     <a href="#">
@@ -76,7 +88,7 @@
                         </div>    
                         <div class="Lslide">
                             <div class="Lslide-content">
-                                <h2>De nouveaux donjons !</h2>
+                                <h2>De nouvelles structures&#8239;!</h2>
                                 <p>Plusieurs mods rajoutent des structures avec des récompenses exceptionnelles !<br>A vous de les trouvers !</p>
 
                                 <div class="button">
@@ -121,6 +133,9 @@
                         <div class="Rslide">
                             <img src="pics/2.jpg" alt="">
                         </div>
+                        <div class="Rslide">
+                        	<img src="pics/9.jpg" alt="">
+                        </div>  
                         <div class="Rslide">
                         	<img src="pics/3.jpg" alt="">
                         </div>     

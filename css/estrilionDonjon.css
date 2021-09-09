@@ -1,0 +1,1114 @@
+.content {
+    position: absolute;
+    top:60px;
+    bottom:37px;
+    display: block;
+    max-height: 100%;
+    width: 100%;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.inContent {
+    position: relative;
+    width: 100%;
+    padding-bottom: 840px;
+}
+.mapsRel {
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+.mapscontent {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    height: 775px;
+}
+.mapscontent::after {
+    position: absolute;
+    top: 784px; bottom: 5px;
+    left: 10px; right: 10px;
+    content: '';
+    border-top: black 8px solid;
+    border-bottom: black 8px solid;
+    border-radius: 10px;
+}
+.mapscontent h1 {
+    position: absolute;
+    font-weight: 900;
+    font-size: 50px;
+    border-left: rgb(0, 0, 0) 8px solid;
+    border-right: rgb(0, 0, 0) 8px solid;
+    padding: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    left: 50%;
+    transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -khtml-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
+.mapscontent h1::before {
+    position: absolute;
+    top: 0px; bottom: 30px;
+    left: 101%; right: -32vw;
+    border-bottom: rgb(0, 0, 0) 8px solid;
+    content: '';
+}
+.mapscontent h1::after {
+    position: absolute;
+    top: 0px; bottom: 30px;
+    left: -32vw; right: 101%;
+    border-bottom: rgb(0, 0, 0) 8px solid;
+    content: '';
+}
+.vueI {
+    position: relative;
+    background-color: rgba(25, 75, 75, 0.4);
+    width: 70%;
+    max-height: 675px;
+    height: 80vh;
+    top:80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.vueI iframe {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.monstres {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 845px;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 4px rgb(0, 0, 0);
+    margin-bottom: 90px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.inViewM {
+    opacity: 1;
+    width: 85%;
+}
+
+.monstres::after {
+    position: absolute;
+    top: 740px; bottom: -5px;
+    left: -5%; right: -5%;
+    content: '';
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    border-radius: 10px;
+}
+.imageinfo {
+    z-index: 5001;
+}
+.monstres .monstreImg {
+    position: absolute;
+    width: 30%;
+    min-width: 300px;
+    height: 350px;
+    left: -5%;
+    top: 8%;
+    border: rgb(200, 200, 200) solid 2px;
+    border-radius: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 0px 15px 3px rgb(150, 150, 150)
+}
+
+.monstres h1 {
+    top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -khtml-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    font-size: 44px;
+}
+
+.monstres h1::before {
+    position: absolute;
+    top: 0px; bottom: 22px;
+    left: 110%; right: -30vw;
+    border-bottom: rgb(0, 0, 0) 4px solid;
+    content: '';
+}
+.monstres h1::after {
+    position: absolute;
+    top: 0px; bottom: 22px;
+    left: -30vw; right: 110%;
+    border-bottom: rgb(0, 0, 0) 4px solid;
+    content: '';
+}
+
+.charact {
+    position: absolute;
+    top: 17.5%;
+    left: 30%;
+}
+
+
+.resistances {
+    position: absolute;
+    top: 10%;
+    right: 7.5%;
+    opacity: 1;
+}
+
+.resistances legend {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.resistances fieldset {
+    padding-left: 30px;
+    border: 4px black solid;
+}
+
+.alignCharact {
+    position: relative;
+    margin-top: 15%;
+}
+
+.preContainerBar p {
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    top: -30px;
+    left: -20px;
+}
+
+.containerBar {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 250px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.containerBar span {
+    position: absolute;
+    /* Center vertically the div*/
+    top:50%;
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* END Center vertically the div*/
+
+    /* Center horizontally the div*/
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    /* END Center horizontally the div*/
+}
+
+.progressBar {
+    border-radius: 8px 8px 8px 8px;
+    height: 30px;
+}
+
+.note {
+    position: relative;
+    top: -18px;
+}
+
+.containerBarR {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    background-color: rgba(0, 255, 255, 0.05);
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.containerBarR span {
+    position: absolute;
+    /* Center vertically the div*/
+    top:50%;
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* END Center vertically the div*/
+
+    /* Center horizontally the div*/
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    /* END Center horizontally the div*/
+}
+
+.containerBarRN {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 250px;
+    height: 25px;
+    background-color: rgba(255, 0, 0, 0.15);
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.containerBarRN span {
+    position: absolute;
+    /* Center vertically the div*/
+    top:50%;
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* END Center vertically the div*/
+
+    /* Center horizontally the div*/
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    /* END Center horizontally the div*/
+}
+
+.progressBarR {
+    border-radius: 8px 4px 4px 8px;
+    height: 25px;
+}
+
+.progressBarRN {
+    border-radius: 4px 8px 8px 4px;
+    height: 25px;
+}
+
+.loots {
+    position: absolute;
+    bottom:5%;
+    /* Center horizontally the div*/
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    /* END Center horizontally the div*/
+}
+
+.lootsCard {
+    margin-top:50px;
+    width:30%;
+    border:solid 3px black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color:rgba(220,200,180,1);
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:20px;
+    box-shadow: 0px 0px 10px 1px rgb(100, 100, 100);
+    transition: width 1s;
+  }
+
+.lootsCard:hover {
+    width:90%;
+}
+  
+.lootsCard:hover .lootsText-hover {
+    right:0%;
+    transition: right 1s;
+}
+  
+.lootsCard:hover .lootsCard-text-hover {
+    z-index: 5000;
+    max-height:110px;
+    transition: max-height 0.5s;
+}
+  
+.lootsCard-title {
+    position:relative;
+    font-size:28px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+  
+.lootsCard-text-hover {
+    position:relative;
+    height:auto;
+    max-height:0px;
+    width:200%;
+    opacity:1;
+    transition: max-height 0.5s;
+}
+  
+.lootsText-hover {
+    position:relative;
+    width:50%;
+    padding-top:10px;
+    background-color:rgba(0,0,0,.3);
+    right:100%;
+    transition: right 1s;
+    border-top:solid 2px black;
+    border-right:solid 2px black;
+}
+
+.infoMonstre {
+      position: absolute;
+      top:60%;
+      left: 9%;
+}
+
+.infoMonstre p {
+      position: absolute;
+      width: 200%;
+}
+
+.sideBySide {
+      position: relative;
+      display:inline-block;
+      margin-right: 75px;
+}
+
+.preContainerBarI {
+    text-align: center;
+}
+
+.preContainerBarI p {
+    font-weight: bold;
+    font-size: 25px;
+    top: -30px;
+    width: 200%;
+    transform: translate(-25%);
+    -o-transform: translate(-25%);
+    -moz-transform: translate(-25%);
+    -khtml-transform: translate(-25%);
+    -webkit-transform: translate(-25%);
+    -ms-transform: translate(-25%);
+}
+
+.lootsImage {
+    padding-bottom: 40px;
+    align-content: center;
+}
+
+.lootsImage img {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barPercent {
+    position: absolute;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 75px;
+    height: 20px;
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: solid black 2px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.barPercent span {
+    position: absolute;
+    /* Center vertically the div*/
+    top:50%;
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /* END Center vertically the div*/
+
+    /* Center horizontally the div*/
+    left:0;
+    right:0;
+    margin-left: auto;
+    margin-right: auto;
+    /* END Center horizontally the div*/
+}
+
+.progressPercent {
+    border-radius: 8px 8px 8px 8px;
+    height: 20px;
+}
+
+.sideBySideLoots {
+    position: relative;
+    display:inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+@media all and (max-width: 1500px){
+
+    .lootsCard {
+        width:40%;
+    }
+
+    .lootsCard:hover .lootsCard-text-hover {
+        max-height:100px;
+    }
+    
+    .barPercent {
+        width: 60px;
+    }
+
+    .sideBySideLoots {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lootsImage img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sideBySide {
+        margin-right: 20px;
+  }
+} /* 1500px */
+
+
+@media all and (max-width: 1280px){
+    .lootsCard {
+        width:40%;
+    }
+
+    .lootsCard:hover .lootsCard-text-hover {
+        max-height:100px;
+    }
+    
+    .barPercent {
+        width: 60px;
+    }
+
+    .sideBySideLoots {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .lootsImage img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sideBySide {
+        margin-right: 20px;
+    }
+
+    .content {
+        top:70px;
+    }
+
+
+    .mapscontent {
+        height: 725px;
+    }
+    .mapscontent::after {
+        top: 734px;
+    }
+
+    .mapscontent h1 {
+        font-weight: 600;
+        font-size: 40px;
+        padding: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .mapscontent h1::before {
+        bottom: 23px;
+        right: -28vw;
+    }
+    .mapscontent h1::after {
+        bottom: 23px;
+        left: -28vw;
+    }
+    .vueI {
+        position: relative;
+        background-color: rgba(25, 75, 75, 0.4);
+        width: 80%;
+        max-height: 625px;
+        height: 80vh;
+        top:80px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .monstres {
+        width: 85%;
+        top: 800px;
+        height: 650px;
+        margin-bottom: 60px;
+        opacity: 0;
+    }
+
+    .inViewM {
+        opacity: 1;
+        width: 90%;
+    }
+
+    .monstres::after {
+        top: 675px;
+    }
+
+    .monstres .monstreImg {
+        height: 320px;
+        left: -3%;
+    }
+
+    .monstres h1 {
+        font-size: 40px;
+    }
+    
+    .monstres h1::before {
+        bottom: 20px;
+        left: 110%; right: -25vw;
+    }
+    .monstres h1::after {
+        bottom: 20px;
+        left: -25vw; right: 110%;
+    }
+
+    .inContent {
+        padding-bottom: 800px;
+    }
+
+} /* 1280px */
+
+
+
+@media all and (max-width: 1150px){
+    .lootsCard {
+        width:50%;
+    }
+
+    .lootsCard:hover .lootsCard-text-hover {
+        max-height:100px;
+    }
+    
+    .barPercent {
+        width: 50px;
+    }
+
+    .sideBySideLoots {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .lootsImage img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .sideBySide {
+        margin-right: 20px;
+    }
+
+    .content {
+        top:70px;
+    }
+
+    .mapscontent {
+        height: 725px;
+    }
+    .mapscontent::after {
+        top: 734px;
+    }
+    .mapscontent h1 {
+        font-weight: 600;
+        font-size: 40px;
+        padding: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .mapscontent h1::before {
+        bottom: 23px;
+        right: -23vw;
+    }
+    .mapscontent h1::after {
+        bottom: 23px;
+        left: -23vw;
+    }
+
+    .monstres {
+        width: 85%;
+        top: 800px;
+        height: 560px;
+        margin-bottom: 60px;
+        opacity: 0;
+    }
+
+    .inViewM {
+        opacity: 1;
+        width: 85%;
+    }
+
+    .monstres::after {
+        top: 585px;
+        left: -2%; right: -2%;
+    }
+
+    .monstres .monstreImg {
+        height: 280px;
+        left: -3%;
+        top:70px;
+    }
+
+    .monstres h1 {
+        font-size: 40px;
+    }
+    
+    .monstres h1::before {
+        bottom: 20px;
+        left: 110%; right: -25vw;
+    }
+    .monstres h1::after {
+        bottom: 20px;
+        left: -25vw; right: 110%;
+    }
+
+    .inContent {
+        padding-bottom: 800px;
+    }
+
+    .charact {
+        position: absolute;
+        top: 110px;
+        left: 320px;
+    }
+    
+    
+    .resistances {
+        position: absolute;
+        top: 50px;
+        right: 25px;
+        opacity: 1;
+    }
+    
+    .resistances legend {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .resistances fieldset {
+        padding-left: 30px;
+        border: 4px black solid;
+    }
+    
+    .alignCharact {
+        position: relative;
+
+        margin-top: 40px;
+    }
+    
+    .preContainerBar p {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        top: -30px;
+        left: -20px;
+        width: 120%;
+    }
+    
+    .containerBar {
+        width: 180px;
+        height: 20px;
+        font-size: 20px;
+    }
+    
+    .progressBar {
+        height: 20px;
+    }
+    
+    .containerBarR {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 180px;
+        height: 18px;
+        background-color: rgba(0, 255, 255, 0.05);
+        border-radius: 10px;
+        border: solid black 2px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .containerBarRN {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 180px;
+        height: 18px;
+        background-color: rgba(255, 0, 0, 0.15);
+        border-radius: 10px;
+        border: solid black 2px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .progressBarR {
+        border-radius: 8px 4px 4px 8px;
+        height: 18px;
+    }
+    
+    .progressBarRN {
+        border-radius: 4px 8px 8px 4px;
+        height: 18px;
+    }
+
+    .loots {
+        position: absolute;
+        bottom:3%;
+        /* Center horizontally the div*/
+        left:0;
+        right:0;
+        margin-left: auto;
+        margin-right: auto;
+        /* END Center horizontally the div*/
+    }
+      
+    .lootsCard-title {
+        font-size:26px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    
+    .infoMonstre {
+          top:350px;
+          left: 20px;
+    }
+
+    .preContainerBarI {
+        text-align: center;
+    }
+
+    .preContainerBarI p {
+        font-size: 20px;
+        top: -26px;
+        width: 200%;
+    }
+
+} /* 1150px */
+
+
+
+
+
+@media all and (max-width: 938px){
+
+    .content {
+        top:48px;
+        bottom:28px;
+    }
+    .mapscontent {
+        height: 83vh;
+    }
+    .mapscontent::after {
+        top: 83vh;
+    }
+
+    .monstres {
+        top: 92vh;
+        height: 1325px;
+    }
+
+    .monstres::after {
+        top: 1350px !important;
+        left: -2%; right: -2%;
+    }
+
+    @media all and (max-height: 640px) and (max-width: 938px){
+        .mapscontent {
+            height: 90vh;
+        }
+        .mapscontent::after {
+            top: 90vh;
+        }
+
+        .monstres {
+            top: 105vh;
+        }
+    }
+    
+    .mapscontent h1 {
+        font-weight: 600;
+        font-size: 32px;
+        text-align: center;
+        padding: 3px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .mapscontent h1::before {
+        bottom: 35px;
+        right: -15vw;
+    }
+    .mapscontent h1::after {
+        bottom: 35px;
+        left: -15vw;
+    }
+
+    .vueI {
+        width: 95%;
+        max-height: 575px !important;
+        height: 65vh !important;
+        top:110px;
+    }
+
+    .vueI iframe{
+        width: 95%;
+        max-height: 575px !important;
+        height: 65vh !important;
+        top:110px;
+    }
+
+    .inViewM {
+        opacity: 1;
+        width: 85%;
+    }
+
+    .monstres::after {
+        top: 585px;
+        left: -2%; right: -2%;
+    }
+
+    .monstres .monstreImg {
+        height: 200px;
+        min-width: 70vw !important;
+        top:80px;
+        left: 50%;
+        transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -khtml-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+        border-radius: 20px;
+    }
+
+    .monstres h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .monstres h1::before {
+        bottom: 50%;
+        left: 110%; right: -20vw;
+    }
+    .monstres h1::after {
+        bottom: 50%;
+        left: -20vw; right: 110%;
+    }
+
+    .inContent {
+        padding-bottom: 800px;
+    }
+
+    .charact {
+        position: absolute;
+        top: 290px;
+        left: 50%;
+        transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -khtml-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+    
+    
+    .resistances {
+        position: absolute;
+        top: 520px;
+        left: 50%;
+        transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -khtml-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+        right: unset;
+    }
+    
+    .resistances legend {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .resistances fieldset {
+        width: 60vw;
+        padding: 5px;
+        border: 4px black solid;
+    }
+    
+    .alignCharact {
+        position: relative;
+        margin-top: 40px;
+    }
+    
+    .preContainerBar p {
+        position: absolute;
+        font-size: 20px;
+        font-weight: bold;
+        top: -30px;
+        width: 120%;
+        text-align: center;
+    }
+    
+    .containerBar {
+        width: 60vw;
+        height: 20px;
+        font-size: 20px;
+    }
+    
+    .progressBar {
+        height: 20px;
+    }
+    
+    .containerBarR {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 60vw;
+        height: 18px;
+        background-color: rgba(0, 255, 255, 0.05);
+        border-radius: 10px;
+        border: solid black 2px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .containerBarRN {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        width: 60vw;
+        height: 18px;
+        background-color: rgba(255, 0, 0, 0.15);
+        border-radius: 10px;
+        border: solid black 2px;
+        text-align: center;
+        box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    
+    .progressBarR {
+        border-radius: 8px 4px 4px 8px;
+        height: 18px;
+    }
+    
+    .progressBarRN {
+        border-radius: 4px 8px 8px 4px;
+        height: 18px;
+    }
+
+    .sideBySide {
+        margin-right: 0px;
+  }
+
+    .loots {
+        bottom:1%;
+    }
+      
+    .lootsCard-title {
+        font-size:26px;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    
+    .infoMonstre {
+        top:830px;
+        left: 50%;
+        transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -khtml-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+    }
+
+    .preContainerBarI {
+        text-align: center;
+    }
+
+    .preContainerBarI p {
+        font-size: 20px;
+        top: -26px;
+        width: 200%;
+    }
+
+    .lootsCard {
+        width:90%;
+    }
+
+    .lootsCard:hover .lootsCard-text-hover {
+        max-height:280px;
+    }
+    
+    .barPercent {
+        position: relative;
+    }
+
+    .sideBySideLoots {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .lootsImage {
+        padding-bottom: 5px;
+    }
+
+    .lootsImage img {
+        width: 40px;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+} /* 938px */

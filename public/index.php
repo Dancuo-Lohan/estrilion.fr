@@ -7,11 +7,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/estrilion.css">
         <link rel="stylesheet" href="css/estrilionBoutique.css">
-        <link rel="stylesheet" href="css/bootstrap-grip.css">
+        <link rel="stylesheet" href="css/estrilionDonjon.css">
+    	<link rel="stylesheet" href="css/bootstrap-grip.css">
 		<link rel="icon" href="pics/iconmp.ico">
     </head>
 
-    <body>
+	<?php if(isset($_GET['page'])) {
+	        echo '<body class="Page_'.($_GET['page']).'">
+            <script>
+	        var root = document.getElementsByTagName( "html" )[0]; // "0" to assign the first (and only `HTML` tag)
+	        root.setAttribute( "class", "Page_'.($_GET['page']).'" )
+            </script>';
+	}?>
         <?php include("public/entete.php"); ?>
         
 
@@ -34,6 +41,7 @@
             <script type="text/javascript" src="js/js.js"></script>
             <script type="text/javascript" src="js/cookie.js"></script>
             <script type="text/javascript" src="js/jsImageBoutique.js"></script>
+            <script type="text/javascript" src="js/jsImageDonjon.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
             <script src="//api.dedipass.com/v1/pay.js"></script>
             <script>

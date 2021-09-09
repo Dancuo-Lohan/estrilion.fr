@@ -11,7 +11,7 @@ var Lslide      = document.querySelectorAll('.Lslide'),
     Rslide      = document.querySelectorAll('.Rslide'),
     control     = document.querySelectorAll('.oncontrol'),
     slideHeight = document.querySelector('.wrapper').clientHeight,
-    color = ['#ac8ca3', '#343b60', '#58312e','#1f0d06','#29293d','#213242','#291a12','#1e1920'],
+    color = ['#ac8ca3', '#343b60','#181211', '#58312e','#1f0d06','#29293d','#213242','#291a12','#1e1920']
     index = 0;
 
 

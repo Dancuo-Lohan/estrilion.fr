@@ -1,9 +1,9 @@
-<div class="container">
-  <div class="row boutique">
-  
-  
-	<div class="col grade paladin">
-		<span>PALADIN</span>
+
+<div class="row boutique">
+
+
+    <div class="col grade paladin">
+    	<span>PALADIN</span>
         <br><br>
         <div class="imageBoutique">
             <img onmouseover="pa1('1')" onmouseout="pa2('1')" src="./pics/paladin/1.png"><img onmouseover="pa1('2')" onmouseout="pa2('2')" src="./pics/paladin/2.png"><img src="./pics/paladin/3.png">
@@ -25,11 +25,11 @@
             <br>
             /kit paladin tous les 2 jours
         </div>
-		<a id="aPaladin"  href="#popup1">
+    	<a id="aPaladin"  href="#popup1">
         	<input type="button" id="btPaladin" class="btBoutique blockBt"  value="5€"></input>
-		</a>
-	</div>
-			
+    	</a>
+    </div>
+    		
     <div id="popup1" class="overlay">
     	<div class="popup">
     		<h2>Achat du grade paladin</h2>
@@ -39,9 +39,9 @@
     		</div>
     	</div>
     </div>
-			
-			
-	<div class="col grade eclaireur">
+    		
+    		
+    <div class="col grade eclaireur">
         <span>ECLAIREUR</span>
         <br><br>
         <div class="imageBoutique">
@@ -64,12 +64,12 @@
             <br>
             /kit eclaireur tous les 2 jours
         </div>
-		<a id="aEclaireur" href="#popup2">
-			<input type="button" id="btEclaireur" class="btBoutique blockBt"  value="10€"></input>
-		</a>
-	</div>
-	
-	<div id="popup2" class="overlay">
+    	<a id="aEclaireur" href="#popup2">
+    		<input type="button" id="btEclaireur" class="btBoutique blockBt"  value="10€"></input>
+    	</a>
+    </div>
+    
+    <div id="popup2" class="overlay">
     	<div class="popup">
     		<h2>Achat du grade éclaireur</h2>
     		<a class="close" href="#">&times;</a>
@@ -78,14 +78,14 @@
     		</div>
     	</div>
     </div>
-	
-	
-	
-	
-	
-	
-	
-	<div class="col grade exile">
+    
+    
+    
+    
+    
+    
+    
+    <div class="col grade exile">
         <span>EXILÉ</span>
         <br><br>
         <div class="imageBoutique">
@@ -110,8 +110,8 @@
         </div>
         
         <strong class="recommande">RECOMMANDÉ</strong>
-		
-		<a id="aExile" href="#popup3">
+    	
+    	<a id="aExile" href="#popup3">
         	<input type="button" id="btExilé" boutonAchat class="btBoutique blockBt" value="15€"></input>
     	</a>
     </div>
@@ -131,7 +131,7 @@
     
     
     
-	<div class="col grade tyran">
+    <div class="col grade tyran">
         <span>TYRAN</span>
         <br><br>
         <div class="imageBoutique">
@@ -167,13 +167,13 @@
     		</div>
     	</div>
     </div>
-	
-	
-	
-	
-	
-	
-	<div class="col grade monarque">
+    
+    
+    
+    
+    
+    
+    <div class="col grade monarque">
         <span>MONARQUE</span>
         <br><br>
         <div class="imageBoutique">
@@ -195,10 +195,10 @@
             /kit monarque tous les 4 jours
             <br>
         </div>
-
+    
         <strong class="recommande">MEILLEURE OFFRE !</strong>
         
-		<a id="aMonarque" href="#popup5">
+    	<a id="aMonarque" href="#popup5">
         	<input type="button" id="btMonarque" class="btBoutique blockBt" value="30€"></input>
         </a>
     </div>
@@ -212,10 +212,8 @@
     		</div>
     	</div>
     </div>
-    
-    
-    
-  </div>
+
+
 </div>
 <?php
  include("public/login.php"); 
