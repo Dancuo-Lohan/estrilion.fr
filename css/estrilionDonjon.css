@@ -1063,7 +1063,9 @@
     }
     
     .infoMonstre {
+        width: 60vw;
         top:830px;
+        right: none;
         left: 50%;
         transform: translate(-50%);
         -o-transform: translate(-50%);
@@ -1075,13 +1077,22 @@
     }
 
     .preContainerBarI {
-        text-align: center;
+        text-align: none;
     }
 
     .preContainerBarI p {
         font-size: 20px;
         top: -26px;
-        width: 200%;
+        width: 100vw;
+        right: none;
+        left: 50%;
+        transform: translate(-50%);
+        -o-transform: translate(-50%);
+        -moz-transform: translate(-50%);
+        -khtml-transform: translate(-50%);
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
     }
 
     .lootsCard {
