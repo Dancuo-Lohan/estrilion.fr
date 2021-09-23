@@ -14,7 +14,7 @@ body {
 }
 
 .Page_boutique {
-	min-height:800px;
+	min-height:750px;
 	min-width:1450px;
 	overflow:auto !important;
 }
@@ -98,8 +98,8 @@ body {
 
 .grade {
     width:19%;
-    height: 85%;
-    min-height:680px;
+    height: 84vh;
+    min-height:580px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.9);
     border: solid black;
@@ -109,7 +109,7 @@ body {
     vertical-align: top;
     position: relative;
     line-height: 20px;
-    margin-top: 80px !important;
+    margin-top: 70px !important;
 }
 
 .contentGrade {
@@ -281,6 +281,8 @@ body {
 	
 	.Page_boutique {
 		overflow:auto !important;
+        min-height:unset;
+    	min-width:unset;
 	}
 
 	html {

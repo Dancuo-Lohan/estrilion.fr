@@ -1,7 +1,7 @@
 .content {
     position: absolute;
     top:60px;
-    bottom:37px;
+    bottom:36px;
     display: block;
     max-height: 100%;
     width: 100%;
@@ -108,9 +108,9 @@
     top: 740px; bottom: -5px;
     left: -5%; right: -5%;
     content: '';
-    border-top: black 5px solid;
-    border-bottom: black 5px solid;
-    border-radius: 10px;
+    border-top: black 4px solid;
+    border-bottom: black 4px solid;
+    border-radius: 8px;
 }
 .imageinfo {
     z-index: 5001;

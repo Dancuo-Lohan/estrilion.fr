@@ -36,7 +36,13 @@ footer {
     margin-right: 1%;
 }
 
-
+.betweenBanner {
+	position:absolute;
+	top: 60px;
+	bottom: 36px;
+	min-height: 80%;
+	min-width: 100%;
+}
 
 
 a {
@@ -181,8 +187,8 @@ a {
 .slideshow .slideshow-right {
     width: 70%;
     float: left;
-    position: relative;
-    height: 100%;    
+    position: relative;   
+    height: 100%; 
 }     
 .slideshow .slideshow-right .Rslide {
     height: 100%;
@@ -261,17 +267,19 @@ a {
     transform: rotate(180deg);
 } 
 .imgDiscord {
-	height:350px;
+	height:250px;
 	width:350px;
 }
 .imgLauncher{
-	height:300px;
-	width:300px;
+	height:200px;
+	padding-left: 50px;
+	padding-right: 50px;
+	width:200px;
 }
 
 .infocontent {
-	height: 80vh;
-	min-height:700px;
+	height: 70%;
+	min-height:600px;
 	min-width: 1350px;
 	width: 90vw;
 	overflow-y:auto;
@@ -282,7 +290,7 @@ a {
 	margin-right:auto;
 	margin-left:auto;
 	position:relative;
-	top: 50%;
+	top: 51.5%;
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	font-size: 20px;
@@ -316,6 +324,10 @@ a {
 
 	.Page_boutique {
 	overflow-y: scroll !important;
+	}
+
+	.betweenBanner {
+		top:70px;
 	}
 	
 	
@@ -359,7 +371,7 @@ a {
 	
 	.slideshow .Lslide-content {
 		min-width:80%;
-		top:40%;
+		top:41%;
 	}
 	
 	.slideshow .Lslide-content h2 {
@@ -494,6 +506,14 @@ a {
 	
 
     }
+}
+
+@media all and (max-width: 938px){
+	.betweenBanner {
+		position: unset;
+		top:unset;
+		bottom:unset;
+	}
 }
 
 @media all and (max-width: 700px){
