@@ -1,2 +1,2 @@
 # estrilion.fr
-Website of Estrilion
+Website of Estrilion (outdated)
